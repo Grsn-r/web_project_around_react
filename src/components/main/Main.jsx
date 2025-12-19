@@ -1,6 +1,7 @@
 import editAvatarBtn from '../../images/edit_avatar_btn.png'
 import editButton from '../../images/edit-button.png'
 import avatar from '../../images/avatar.jpg'
+import addButton from '../../images/add-btn-img.png'
 import '../../index.css'
 
 function Main() {

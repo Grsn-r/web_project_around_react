@@ -1,4 +1,4 @@
-import logo from './images/header_img.svg'
+import logo from '../../images/header_img.svg'
 import '../../index.css'
 
 function Header() {
