@@ -1,16 +1,8 @@
-# React + Vite
+proyecto react + vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NOTA: se han dejado clases css que no se usan ya que en el proceso de refatorización he tenido que renombrar algunas y borrar otras
+aún no he terminado de revisar cuáles contienen datos que me podrían servir a futuro así que he decidido dejarlas de momento
 
-Currently, two official plugins are available:
+se han creado los componentes que renderizan las cards correcamente y los popups implementando el hook useState
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+la estructura de directorios se ha seguido al pie de la letra
