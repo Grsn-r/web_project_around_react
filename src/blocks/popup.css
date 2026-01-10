@@ -92,7 +92,7 @@
     color: rgba(196, 196, 196, 1);
     cursor:not-allowed;
 }
-.form__save-button:hover{
+.popup__button:hover{
     cursor: pointer;
     opacity: 80%;
 }

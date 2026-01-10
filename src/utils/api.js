@@ -23,7 +23,7 @@ class Api{
             headers: this._headers})
         .then(this._checkResponse)
     }
-    updateUserInfo(userData){
+    setUserInfo(userData){
         return fetch(`${this._baseUrl}/users/me`, {
             method: 'PATCH',
             headers: this._headers,
@@ -54,16 +54,9 @@ class Api{
         })
         .then(this._checkResponse);
     }
-    likeCard(cardId){
+    likeCard(cardId, isLiked){
         return fetch(`${this._baseUrl}/cards/${cardId}/likes`,{
-            method: 'PUT',
-            headers: this._headers
-        })
-        .then(this._checkResponse);
-    }
-    unlikeCard(cardId){
-        return fetch(`${this._baseUrl}/cards/${cardId}/likes`,{
-            method: 'DELETE',
+            method: isLiked ? 'PUT' : 'DELETE',
             headers: this._headers
         })
         .then(this._checkResponse);
