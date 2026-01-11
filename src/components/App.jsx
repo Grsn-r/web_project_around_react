@@ -1,11 +1,11 @@
-import './index.css'
-import Header from './components/header/Header';
-import Main from './components/main/Main';
-import Footer from './components/footer/Footer';
-import api from './utils/api';
+import '../index.css'
+import Header from './header/Header';
+import Main from './main/Main';
+import Footer from './footer/Footer';
+import api from '../utils/api';
 import {useState, useEffect} from 'react'
-import CurrentUserContext from './contexts/CurrentUserContext';
-import ImagePopup from './components/main/components/ImagePopup/ImagePopup'
+import CurrentUserContext from '../contexts/CurrentUserContext';
+import ImagePopup from './main/components/ImagePopup/ImagePopup'
 
 
 function App() {
